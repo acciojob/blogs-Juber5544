@@ -30,7 +30,7 @@ public class BlogService {
         blog.setPubDate(new Date());
 
         User user = userRepository1.findById(userId).get();
-        blog.setUser((org.apache.catalina.User) user);
+        blog.setUser(user);
 
         List<Blog> blogList=user.getBlogList();
         blogList.add(blog);

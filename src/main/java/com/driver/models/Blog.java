@@ -1,10 +1,8 @@
 package com.driver.models;
 
-import org.apache.catalina.User;
 import org.hibernate.annotations.CreationTimestamp;
 
 import javax.persistence.*;
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
